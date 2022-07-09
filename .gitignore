@@ -1,5 +1,6 @@
 node_modules
 files/pdf/actual/**
 files/pdf/baseline/**
-png/actual/**
-png/baseline/**
+files/png/actual/**
+files/png/baseline/**
+files/png/diff/**
