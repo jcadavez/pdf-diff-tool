@@ -1,2 +1,2 @@
-# pdf-diff-tool
-PDF Diff Tool
+# PDF Diff Tool
+

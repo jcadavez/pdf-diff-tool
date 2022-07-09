@@ -1,0 +1,5 @@
+node_modules
+files/pdf/actual/**
+files/pdf/baseline/**
+png/actual/**
+png/baseline/**

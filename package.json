@@ -1,0 +1,25 @@
+{
+  "name": "pdf-diff-tool",
+  "version": "1.0.0",
+  "description": "PDF Diff Tool",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "node ./node_modules/mocha/bin/mocha",
+    "test": "mocha --recursive --timeout 600000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcadavez/pdf-diff-tool.git"
+  },
+  "author": "Joshua Cadavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcadavez/pdf-diff-tool/issues"
+  },
+  "homepage": "https://github.com/jcadavez/pdf-diff-tool#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "compare-pdf": "^1.1.8",
+    "mocha": "^10.0.0"
+  }
+}
