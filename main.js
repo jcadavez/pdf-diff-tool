@@ -8,11 +8,14 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: {
+      nodeIntegration: true,
       preload: path.join(__dirname, 'preload.js')
     }
   })
   ipcMain.handle('ping', () => 'pong')
   win.loadFile('index.html')
+  // Open the DevTools.
+  win.webContents.openDevTools()
 }
 
 const iconName = path.join(__dirname, 'iconForDragAndDrop.png');
