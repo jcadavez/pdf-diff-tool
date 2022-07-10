@@ -2,10 +2,11 @@
   "name": "pdf-diff-tool",
   "version": "1.0.0",
   "description": "PDF Diff Tool",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "main": "index.js",
-    "compare": "node ."
+    "compare": "node .",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/jcadavez/pdf-diff-tool#readme",
   "dependencies": {
     "compare-pdf": "^1.1.8"
+  },
+  "devDependencies": {
+    "electron": "^19.0.8"
   }
 }
