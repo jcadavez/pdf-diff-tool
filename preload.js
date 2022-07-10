@@ -9,7 +9,6 @@ contextBridge.exposeInMainWorld('versions', {
     node: () => process.versions.node,
     chrome: () => process.versions.chrome,
     electron: () => process.versions.electron,
-    ping: () => ipcRenderer.invoke('ping'),
     // we can also expose variables, not just functions
     /**
      * Notice how we wrap the ipcRenderer.invoke('ping') call 
@@ -23,4 +22,5 @@ contextBridge.exposeInMainWorld('versions', {
      * IPC messages to the main process, which becomes a powerful 
      * attack vector for malicious code.
      */
+    ping: () => ipcRenderer.invoke('ping')
 })
